@@ -1,6 +1,5 @@
 package com.klef;
 
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,10 +14,17 @@ public class ClientController
 	
    }
 	
-   @GetMapping("/demo")
-   public String demo()
+	
+	 @GetMapping("/demo")
+	   public String demo()
+	   {
+		   return "Deploy springboot using Jenkins";
+	   }
+	   
+   @GetMapping("/test")
+   public String test()
    {
-	   return "Jenkins Demo";
+	   return "Deploy springboot using Jenkins";
    }
    
 }
