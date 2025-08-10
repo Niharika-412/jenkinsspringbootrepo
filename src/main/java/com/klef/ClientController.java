@@ -18,7 +18,7 @@ public class ClientController
 	 @GetMapping("/demo")
 	   public String demo()
 	   {
-		   return "Jenkins erp1";
+		   return "Jenkins erp klu";
 	   }
 	   
    @GetMapping("/test")
